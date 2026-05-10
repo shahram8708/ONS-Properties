@@ -1,0 +1,88 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+
+  70% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0.5;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.revealed {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.hero .animate-hero {
+  opacity: 0;
+  animation: fadeInUp 0.9s ease forwards;
+}
+
+.hero .animate-hero:nth-child(1) {
+  animation-delay: 0.15s;
+}
+
+.hero .animate-hero:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.hero .animate-hero:nth-child(3) {
+  animation-delay: 0.45s;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover,
+.hover-lift:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.hover-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover,
+.hover-glow:focus {
+  box-shadow: 0 0 0 4px rgba(184, 134, 11, 0.22);
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}

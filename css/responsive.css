@@ -1,0 +1,108 @@
+@media (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section-padding {
+    padding: 48px 0;
+  }
+
+  .hero {
+    min-height: 88vh;
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+  }
+
+  .hero h2 {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .nav-link,
+  .dropdown-item,
+  .form-control,
+  .form-select {
+    min-height: 44px;
+  }
+
+  .cta-banner {
+    padding: 1.4rem;
+  }
+
+  .process-step {
+    padding-left: 3.7rem;
+  }
+
+  .process-step-num {
+    left: 0.9rem;
+  }
+
+  .whatsapp-float {
+    bottom: 80px;
+  }
+
+  .footer-main .col-sm-6 {
+    margin-bottom: 1.2rem;
+  }
+
+  .navbar-collapse {
+    background: rgba(13, 27, 62, 0.98);
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-top: 0.6rem;
+  }
+
+  .page-hero {
+    padding: 110px 0 64px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section-padding {
+    padding: 64px 0;
+  }
+
+  .hero {
+    min-height: 92vh;
+  }
+
+  .service-grid .col-md-6,
+  .property-grid .col-md-6,
+  .team-grid .col-md-6 {
+    display: flex;
+  }
+
+  .service-card,
+  .property-card,
+  .team-card,
+  .info-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section-padding {
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .container.container-xl {
+    max-width: 1240px;
+  }
+}

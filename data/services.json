@@ -1,0 +1,58 @@
+{
+  "services": [
+    {
+      "id": "svc-buying",
+      "title": "Property Buying",
+      "icon": "home",
+      "short_desc": "End to end guidance for buying flats, villas, plots, and offices in Ahmedabad. We shortlist, verify, and negotiate for the right value.",
+      "full_desc": "Our buying advisory starts with your budget, lifestyle, and commute needs. We shortlist verified projects and resale options across Ahmedabad, organize site visits, and compare legal and financial factors. Our team supports offer strategy, token process, agreement review, and final registration so you can buy with clarity and confidence.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Property Buying. Please get in touch."
+    },
+    {
+      "id": "svc-selling",
+      "title": "Property Selling",
+      "icon": "tag",
+      "short_desc": "Strategic pricing, genuine buyer network, and complete deal management to help you sell faster at the right market rate.",
+      "full_desc": "We help homeowners and investors sell residential and commercial assets through targeted marketing and serious buyer outreach. Our team prepares pricing benchmarks, listing presentation, and site visit handling. From negotiation to agreement closure and registration support, we ensure a transparent, time efficient sale process.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Property Selling. Please get in touch."
+    },
+    {
+      "id": "svc-rental",
+      "title": "Rental Services",
+      "icon": "key",
+      "short_desc": "Reliable tenant and landlord assistance for homes and offices, including documentation support and rental value assessment.",
+      "full_desc": "Whether you are a tenant or property owner, we streamline renting with verified profiles and clear expectations. We assist with locality selection, rental negotiations, leave and license paperwork, and move in planning. For landlords, we focus on dependable occupancy and low vacancy through quality tenant matching.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Rental Services. Please get in touch."
+    },
+    {
+      "id": "svc-investment",
+      "title": "Investment Consultancy",
+      "icon": "chart",
+      "short_desc": "Data led advice on growth corridors, rental yield, and long term appreciation to build a smarter real estate portfolio.",
+      "full_desc": "Our investment consultancy is designed for professionals, NRIs, and business owners seeking stable real estate returns in Ahmedabad. We analyze micro markets, infrastructure pipelines, builder credibility, and exit potential before recommending options. You get actionable guidance on timing, ticket size, and asset mix aligned with your risk appetite.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Investment Consultancy. Please get in touch."
+    },
+    {
+      "id": "svc-commercial",
+      "title": "Commercial Properties",
+      "icon": "building",
+      "short_desc": "Office, retail, and showroom solutions in key business locations with support for lease, purchase, and expansion planning.",
+      "full_desc": "From SG Road and Bodakdev to Vastrapur and Prahlad Nagar, we source high potential commercial spaces for business growth. Our team evaluates footfall, parking, visibility, and compliance readiness before closure. We also support lease structuring, lock in clauses, and investment comparisons for owner occupiers and investors.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Commercial Properties. Please get in touch."
+    },
+    {
+      "id": "svc-residential",
+      "title": "Residential Properties",
+      "icon": "family",
+      "short_desc": "Carefully curated homes for families and first time buyers, from budget apartments to premium gated communities.",
+      "full_desc": "We help families find well connected homes with the right balance of comfort, security, and future value. Our team covers ready to move and under construction options across West and North Ahmedabad localities. We manage unit comparison, builder verification, home loan coordination, and final possession handover support.",
+      "cta_text": "Get Consultation",
+      "whatsapp_text": "I need help with Residential Properties. Please get in touch."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Dhruv Patel",
+      "location": "Prahlad Nagar, Ahmedabad",
+      "rating": 5,
+      "quote": "ONS Properties understood exactly what my family needed and showed us only relevant 3BHK options. Their paperwork support was clear and fast, and we closed without stress. I genuinely felt they protected our interests at every stage.",
+      "initials": "DP",
+      "date": "Jan 2024"
+    },
+    {
+      "id": "t2",
+      "name": "Riddhi Shah",
+      "location": "Satellite, Ahmedabad",
+      "rating": 5,
+      "quote": "I was relocating from Mumbai and had very little time to finalize a home in Ahmedabad. The team arranged virtual tours, shared transparent comparisons, and coordinated everything before my move. Their local insight saved me weeks of confusion.",
+      "initials": "RS",
+      "date": "Apr 2024"
+    },
+    {
+      "id": "t3",
+      "name": "Sureshbhai Trivedi",
+      "location": "Bopal, Ahmedabad",
+      "rating": 5,
+      "quote": "I sold my old flat through ONS Properties and was impressed with their buyer quality and negotiation approach. They handled every follow up professionally and ensured documentation was complete. The final deal value was better than expected.",
+      "initials": "ST",
+      "date": "Jul 2024"
+    },
+    {
+      "id": "t4",
+      "name": "Khushbu Mehta",
+      "location": "Vastrapur, Ahmedabad",
+      "rating": 5,
+      "quote": "As a first time buyer, I had many doubts about legal checks and hidden costs. ONS explained each step in simple language and connected me with trusted loan partners. Their process gave me confidence to make the right decision.",
+      "initials": "KM",
+      "date": "Oct 2024"
+    },
+    {
+      "id": "t5",
+      "name": "Ankit Desai",
+      "location": "SG Highway, Ahmedabad",
+      "rating": 5,
+      "quote": "We were searching for a commercial office with parking and strong access to SG Road clients. ONS gave practical options and realistic rental yield numbers before purchase. Their market understanding and honesty stood out.",
+      "initials": "AD",
+      "date": "Jan 2025"
+    },
+    {
+      "id": "t6",
+      "name": "Priyanka Joshi",
+      "location": "South Bopal, Ahmedabad",
+      "rating": 5,
+      "quote": "From site visits to registration day, the team stayed proactive and available on every call. They balanced my budget and lifestyle goals without pushing unsuitable projects. I would confidently recommend ONS Properties to anyone buying in Ahmedabad.",
+      "initials": "PJ",
+      "date": "Apr 2025"
+    }
+  ]
+}

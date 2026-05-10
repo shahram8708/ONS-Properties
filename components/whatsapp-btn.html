@@ -1,0 +1,36 @@
+<a
+  class="whatsapp-float"
+  href="https://wa.me/919067006700?text=Hello%2C%20I%20am%20interested%20in%20a%20property%20inquiry"
+  target="_blank"
+  rel="noopener noreferrer"
+  role="button"
+  aria-label="Chat on WhatsApp"
+  tabindex="0"
+>
+  <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
+  <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+    <path d="M19.11 17.03c-.27-.14-1.58-.78-1.83-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.85 1.05-.16.18-.31.2-.58.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.33-1.57-1.49-1.84-.16-.27-.02-.42.12-.56.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.14-.6-1.45-.82-1.99-.22-.53-.44-.45-.6-.45h-.52c-.18 0-.47.07-.72.34-.24.27-.94.92-.94 2.25 0 1.33.96 2.61 1.1 2.79.13.18 1.88 2.87 4.55 4.03.64.28 1.14.45 1.53.57.64.2 1.23.17 1.69.1.52-.08 1.58-.65 1.81-1.28.22-.63.22-1.17.16-1.28-.07-.11-.24-.18-.51-.32m-3.06 10.82h-.01a11.5 11.5 0 0 1-5.85-1.59l-.42-.25-4.35 1.14 1.16-4.24-.28-.43a11.5 11.5 0 1 1 9.75 5.37m9.78-21.24A13.78 13.78 0 0 0 16.07 2.5C8.51 2.5 2.37 8.65 2.36 16.21c0 2.42.63 4.79 1.84 6.88L2.25 30.5l7.59-1.99a13.7 13.7 0 0 0 6.22 1.5h.01c7.56 0 13.71-6.15 13.72-13.71a13.67 13.67 0 0 0-3.96-9.69" />
+  </svg>
+</a>
+<style>
+  .whatsapp-float {
+    right: 20px;
+    bottom: 30px;
+  }
+  @media (max-width: 576px) {
+    .whatsapp-float {
+      bottom: 80px;
+    }
+  }
+</style>
+<script>
+  (function () {
+    const wa = document.querySelector('.whatsapp-float');
+    if (!wa) return;
+    wa.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        wa.click();
+      }
+    });
+  })();
+</script>
