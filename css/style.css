@@ -162,6 +162,7 @@ textarea:focus-visible {
 }
 
 .navbar {
+  background: var(--color-navy);
   transition: var(--transition);
 }
 
@@ -176,10 +177,25 @@ textarea:focus-visible {
   font-weight: 700;
 }
 
+.brand-logo-square {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--color-white);
+}
+
 .brand-properties {
   color: var(--color-white);
   letter-spacing: 0.05em;
   font-weight: 600;
+}
+
+.footer-logo {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav-link {
@@ -629,8 +645,8 @@ textarea:focus-visible {
 
 .reveal-on-scroll {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(18px);
+  transition: opacity 0.32s ease, transform 0.32s ease;
   will-change: transform, opacity;
 }
 

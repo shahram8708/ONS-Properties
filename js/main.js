@@ -52,7 +52,7 @@ function setupNavScrollListener() {
 function animateCounter(counterEl) {
   const target = Number(counterEl.dataset.target || '0');
   const suffix = counterEl.dataset.suffix || '';
-  const duration = 2000;
+  const duration = 1100;
   const start = performance.now();
 
   function update(now) {
@@ -331,6 +331,7 @@ async function renderFaqs() {
 
 async function initPageData() {
   await Promise.all([renderFeaturedProperties(), renderServices(), renderTestimonials(), renderFaqs()]);
+  document.dispatchEvent(new Event('pageDataRendered'));
 }
 
 document.addEventListener('DOMContentLoaded', () => {

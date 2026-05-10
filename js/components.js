@@ -1,11 +1,11 @@
 const fallbackComponents = {
   'components/navbar.html': `
 <a href="#main-content" class="skip-link">Skip to main content</a>
-<nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark py-3" role="navigation" aria-label="Main Navigation">
+<nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark sticky-top py-3" role="navigation" aria-label="Main Navigation">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center gap-1" href="index.html" aria-label="ONS Properties Home">
-      <span class="brand-ons">ONS</span>
-      <span class="brand-properties">PROPERTIES</span>
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="ONS Properties Home">
+      <img src="img/logo.png" alt="ONS Properties logo" class="brand-logo-square" width="44" height="44" loading="eager" />
+      <span class="brand-properties">ONS PROPERTIES</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#onsNavbar"
       aria-controls="onsNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ const fallbackComponents = {
   <div class="container">
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-3">
-        <h3 class="h5 text-white mb-3"><span class="brand-ons">ONS</span> <span class="brand-properties">PROPERTIES</span></h3>
+        <a href="index.html" class="d-inline-block mb-3" aria-label="ONS Properties Home"><img src="img/logo.png" alt="ONS Properties logo" class="footer-logo" width="220" height="88" loading="lazy" /></a>
         <p class="text-muted-soft mb-3">Your property search ends here.</p>
         <a href="https://wa.me/919067006700?text=Hello%2C%20I%20am%20interested%20in%20a%20property%20inquiry" target="_blank" rel="noopener noreferrer" class="d-inline-block mb-2">💬 WhatsApp Us</a><br />
         <a href="tel:+919067006700" class="d-inline-block">📞 +91 9067006700</a>
@@ -54,7 +54,7 @@ const fallbackComponents = {
       </div>
     </div>
     <hr class="my-4 border-light opacity-25" />
-    <div class="d-flex justify-content-between gap-2 flex-wrap"><p class="text-muted-soft m-0">© 2025 ONS Properties. All rights reserved.</p></div>
+    <div class="d-flex justify-content-between gap-2 flex-wrap"><p class="text-muted-soft m-0">© 2026 ONS Properties. All rights reserved.</p></div>
   </div>
 </footer>`,
   'components/whatsapp-btn.html': `
